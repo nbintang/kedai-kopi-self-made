@@ -1,0 +1,138 @@
+*,
+html{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #373030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(90deg,#403939,#211c1c);
+}
+
+nav{
+  background-color: #292727;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  width: 100%;
+  padding: 10px;
+}
+
+nav .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+}
+
+
+nav .container ul{
+  display: flex;
+  left: 0;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0 33px;
+  flex-wrap: wrap;
+  line-height: 30px;
+  list-style: none;
+}
+nav .container li a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+nav .container ul a:hover{
+  background-color: rgb(13, 12, 12);
+  padding: 5px;
+  color: coral;
+  transition: ease-in-out 0.2s ;
+  border-radius: 10px;
+}
+
+nav .container .logo{
+  display: flex;
+  align-self: center;
+  width: 13%;
+  justify-content: center;
+}
+
+nav .container .logo i{
+  font-size: 30px;
+  color: white;
+}
+
+nav .container .logo i:hover{
+  transition: ease-in 0.2s;
+  color: rgb(13, 12, 12);
+}
+
+.content{
+  display: flex;
+  justify-content: space-around ;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+  position: absolute;
+}
+
+.content .about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  box-sizing: border-box;
+  flex-direction: column;
+  color: white;
+}
+
+.content .about p{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.content img{
+  border-radius: 30px;
+}
+
+footer{
+  display: flex;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+footer .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+
+footer .container .footer-text{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+footer .container .left-section{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+}
+
+footer .container .left-section a{
+  /* text-decoration: none; */
+  color: white;
+  border-bottom: 3px white;
+}
